@@ -105,4 +105,43 @@
     // console.log(15!=="15");//true
 
 
+    //* logical oprators
+
+    console.log(!true);//false
+    console.log(!false);//true
+
+
+      //or gate(||)
+
+    console.log(false || false);//false
+    console.log(true || false);//true
+    console.log(false || true);//true
+    console.log(true || true);//true
+
+
+    //AND gate(&&)
+
+    console.log(false && false);//false
+    console.log(true && false);//false
+    console.log(false && true);//false
+    console.log( true && true);//true
+
+    //not gate(!)
+
+    console.log(!10);//false
+    console.log(!"ok");//false
+    console.log(!0);//true
+    console.log(!null);//true
+
+
+    console.log( 10 || "ok");//true//10
+    console.log("yes" || null);//true//yes
+    console.log("" || 25);//true//25
+    console.log(undefined || "saara");//true//saara
+
     
+    console.log( 10 && "ok");//true//ok
+    console.log("yes" && null);//false//null
+    console.log("" && 25);//false//
+    console.log(undefined && "saara");//false//undefined
+
