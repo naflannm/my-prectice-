@@ -14,3 +14,21 @@ for(my=0;my<=10;my++)
 {
     console.log(my+ " helllo");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

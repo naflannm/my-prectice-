@@ -145,3 +145,6 @@
     console.log("" && 25);//false//
     console.log(undefined && "saara");//false//undefined
 
+
+
+    
